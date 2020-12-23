@@ -17,4 +17,8 @@ void main() {
   test('Convert decimal 43 to hexadecimal', () {
     expect(convertToHex(43), '2B');
   });
+
+  test('Convert decimal 3 to hexadecimal', () {
+    expect(convertToHex(3), '3');
+  });
 }
