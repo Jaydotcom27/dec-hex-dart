@@ -9,4 +9,8 @@ void main() {
   test('Convert decimal 699 to hexadecimal', () {
     expect(convertToHex(699), '2BB');
   });
+
+  test('Convert decimal 1245 to hexadecimal', () {
+    expect(convertToHex(1245), '4DD');
+  });
 }
