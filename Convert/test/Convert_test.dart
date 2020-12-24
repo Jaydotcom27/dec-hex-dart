@@ -9,4 +9,8 @@ void main() {
   test('Convert decimal 232  to hexadecimal', () {
     expect(convertToHex(232), 'E8');
   });
+
+  test('Convert decimal 23221  to hexadecimal', () {
+    expect(convertToHex(23221), '5AB5');
+  });
 }
