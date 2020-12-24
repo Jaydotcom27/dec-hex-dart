@@ -17,4 +17,8 @@ void main() {
   test('Convert decimal 699 to hexadecimal', () {
     expect(convertToHex(699), '2BB');
   });
+
+  test('Convert decimal 3847 to hexadecimal', () {
+    expect(convertToHex(3847), 'F07');
+  });
 }
