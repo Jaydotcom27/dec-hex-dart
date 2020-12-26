@@ -21,4 +21,8 @@ void main() {
   test('SCE-1-1-5: Convert decimal 699 to hexadecimal', () {
     expect(convertToHex(699), '2BB');
   });
+
+  test('SCE-1-1-6: Convert decimal 969857444321123123 to hexadecimal', () {
+    expect(convertToHex(969857444321123123), 'D75A03503875B33');
+  });
 }
