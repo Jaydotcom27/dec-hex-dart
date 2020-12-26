@@ -17,4 +17,8 @@ void main() {
   test('SCE-1-1-4: Convert decimal 15 to hexadecimal', () {
     expect(convertToHex(15), 'F');
   });
+
+  test('SCE-1-1-5: Convert decimal 699 to hexadecimal', () {
+    expect(convertToHex(699), '2BB');
+  });
 }
