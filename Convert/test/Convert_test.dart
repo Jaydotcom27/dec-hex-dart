@@ -9,4 +9,8 @@ void main() {
   test('SCE-1-1-2: Convert decimal 213123 to hexadecimal', () {
     expect(convertToHex(213123), '34083');
   });
+
+  test('SCE-1-1-3: Convert decimal 6547 to hexadecimal', () {
+    expect(convertToHex(6547), '1993');
+  });
 }
